@@ -11,10 +11,10 @@
 	{
 		header("location: login.php");
 	}
-	define("USER","3655");
-	define("PASS","3655");
-	define("DB","3655");
-	define("HOST","mattprofe.com.ar");
+	define("USER","webgenerator");
+	define("PASS","webgenerator2020");
+	define("DB","webgenerator");
+	define("HOST","localhost");
 	$db = new mysqli(HOST, USER, PASS, DB);
 	$email=$_SESSION["email"];
 	$sql = "SELECT `idUsuario` FROM `usuarios` WHERE `email`='$email'";

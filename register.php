@@ -13,10 +13,10 @@
     </form>
     <br>
     <?php
-define("USER","3655");
-define("PASS","3655");
-define("DB","3655");
-define("HOST","mattprofe.com.ar");
+define("USER","webgenerator");
+define("PASS","webgenerator2020");
+define("DB","webgenerator");
+define("HOST","localhost");
 if (isset($_POST["Crear"]))
 {
 	$caracter=str_split($_POST["email"]);
